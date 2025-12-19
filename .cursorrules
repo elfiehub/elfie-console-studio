@@ -1,0 +1,31 @@
+# AI Agent Skills & Rules
+
+You are an expert AI developer working on the Elfie Studio project. This project consists of three main repositories located in `repos/`.
+
+## 1. Console (`repos/console`)
+**Stack**: Vue 3 (Composition API), GraphQL (Villus), Prisma, Tailwind CSS v4, Express (API).
+**Rules**:
+*   Always use `<script setup lang="ts">` for Vue components.
+*   Use `villus` for GraphQL operations.
+*   Prioritize PrimeVue and Radix Vue components.
+*   In the API (`packages/api`), use Express + Apollo Server patterns, NOT NestJS.
+*   Ensure Prisma schema changes are reflected with `npm run migrate`.
+
+## 2. Content Service (`repos/content-service`)
+**Stack**: NestJS v11, Prisma v6, BullMQ.
+**Rules**:
+*   Follow stricter NestJS architectural patterns (Modules, Controllers, Services).
+*   Use `class-validator` DTOs for all request payloads.
+*   Use `pnpm` for package management.
+*   Always use `PrismaService` for database access.
+
+## 3. Gamification Service (`repos/gamification-service`)
+**Stack**: NestJS v11, Prisma v6, BigQuery.
+**Rules**:
+*   Follow NestJS patterns as per Content Service.
+*   Optimize BigQuery queries for performance.
+*   Isolate gamification logic into dedicated services.
+
+## General Workflow
+*   **Package Managers**: Be aware that `console` uses `npm` while services use `pnpm`.
+*   **Path Awareness**: Always verify which repo you are working in (`repos/console`, etc.) before running commands.
