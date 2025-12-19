@@ -1,0 +1,12 @@
+{
+  "name": "elfie-studio",
+  "version": "1.0.0",
+  "description": "Elfie Studio Monorepo setup",
+  "scripts": {
+    "install:all": "./install-all-packages.sh",
+    "pull:submodules": "./script/pull-latest-submodules.sh"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC"
+}

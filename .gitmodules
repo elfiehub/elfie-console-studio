@@ -1,0 +1,16 @@
+[submodule "repos/console"]
+	path = repos/console
+	url = git@github.com:elfiehub/console.git
+	branch = main
+[submodule "repos/gamification-service"]
+	path = repos/gamification-service
+	url = git@github.com:elfiehub/fullstack-elfie-gamification.git
+	branch = develop
+[submodule "repos/elfie-ui"]
+	path = repos/elfie-ui
+	url = git@github.com:elfiehub/fullstack-elfie-ui.git
+	branch = staging
+[submodule "repos/content-service"]
+	path = repos/content-service
+	url = git@github.com:elfiehub/fullstack-elfie-content.git
+	branch = develop
