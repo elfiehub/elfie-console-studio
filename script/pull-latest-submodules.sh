@@ -3,7 +3,7 @@
 # Navigate to project root
 cd "$(dirname "$0")/.."
 
-echo "Updating submodules from remote..."
-git submodule update --remote --recursive
+echo "Syncing submodules to committed state..."
+git submodule update --init --recursive
 
 echo "Submodules updated."
