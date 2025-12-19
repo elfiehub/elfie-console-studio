@@ -6,10 +6,6 @@
 	path = repos/gamification-service
 	url = git@github.com:elfiehub/fullstack-elfie-gamification.git
 	branch = develop
-[submodule "repos/elfie-ui"]
-	path = repos/elfie-ui
-	url = git@github.com:elfiehub/fullstack-elfie-ui.git
-	branch = staging
 [submodule "repos/content-service"]
 	path = repos/content-service
 	url = git@github.com:elfiehub/fullstack-elfie-content.git
