@@ -4,6 +4,6 @@
 cd "$(dirname "$0")/.."
 
 echo "Syncing submodules to committed state..."
-git submodule update --init --recursive
+git submodule update --remote --recursive
 
 echo "Submodules updated."
