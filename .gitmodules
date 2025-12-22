@@ -1,7 +1,7 @@
 [submodule "repos/console"]
 	path = repos/console
 	url = git@github.com:elfiehub/console.git
-	branch = main
+	branch = release/con-6861-gamification-service-reward
 [submodule "repos/gamification-service"]
 	path = repos/gamification-service
 	url = git@github.com:elfiehub/fullstack-elfie-gamification.git
